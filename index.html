@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhamad Fikri</title>
+    <link rel="stylesheet" href="dist/tailwind.css" />
+  </head>
+  <body>
+    <!-- START HEADER -->
+    <header class="fixed w-full">
+      <div
+        class="px-4 mx-auto bg-white border-b container-md md:px-0 md:border-none"
+      >
+        <div class="py-8 md:flex">
+          <div class="flex justify-between w-full">
+            <div class="logo">
+              <h3 class="text-xl font-medium gray-green">
+                muh<span class="light-green">fikri</span>
+              </h3>
+            </div>
+            <div>
+              <button class="hamburger md:hidden">
+                <img src="src/assets/icon/hamburger-button.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="hidden text-center md:w-7/12 md:block hamburger-wrapper">
+            <ul
+              class="md:flex md:justify-between hamburger-menu md:overflow-visible"
+            >
+              <li class="hover:underline">
+                <a href="">Home</a>
+              </li>
+              <li><a href="">My Works</a></li>
+              <li><a href="">Skills</a></li>
+              <li><a href="">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- STAR HERO -->
+    <div
+      class="px-4 mx-auto container-md pt-36 hero md:px-0 md:flex md:flex-row-reverse md:justify-between md:items-center"
+    >
+      <div class="flex items-center justify-center w-auto">
+        <div class="w-9/12 md:w-full">
+          <img src="src/assets/img/hero-img.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="my-4 md:w-4/5">
+        <h3 class="py-4 text-2xl font-semibold light-green">
+          Halo saya Fikri,
+        </h3>
+        <h1 class="pb-4 text-3xl font-semibold md:text-5xl">
+          UI/UX Designer <br />
+          & Junior Front-End Developer
+        </h1>
+        <p class="pb-8 text-base font-light text-gray-400 md:w-8/12">
+          Saya adalah freshgraduate S1 Ilmu Komputer. Sebagai lulusan S1 Ilmu
+          Komputer tentu saya mempunyai skill dasar programming. Saat ini saya
+          sedang mendalami front-end developer dan terus mempelajarinya setiap
+          hari. Saat ini saya sedang menunggu kesempatan untuk bekerjasama
+          dengan anda
+        </p>
+        <button
+          class="w-5/12 py-2 text-center text-white transition duration-300 rounded-full bg-light-green hover:bg-green-500 md:w-3/12"
+        >
+          Let's Talk
+        </button>
+      </div>
+    </div>
+    <!-- END HERO -->
+
+    <script src="src/main.js"></script>
+  </body>
+</html>

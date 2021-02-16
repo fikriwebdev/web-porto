@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.light-green {
+  color: #22b07d;
+}
+
+.gray-green {
+  color: #a3b18a;
+}
+
+.hamburger-menu {
+  max-height: 0;
+  transition: max-height 1s;
+  overflow: hidden;
+}
+
+.hamburger-menu.transition-max-h {
+  max-height: 7rem;
+  transition: max-height 1s ease-in-out;
+}
+
+.bg-light-green {
+  background-color: #22b07d;
+}
+
+.container-md {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@tailwind utilities;
