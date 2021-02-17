@@ -585,6 +585,8 @@ video {
   }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -650,6 +652,10 @@ body {
   height: 150px;
 }
 
+.h-footer {
+  height: 245px;
+}
+
 .mt-100px {
   margin-top: 100px;
 }
@@ -665,6 +671,13 @@ body {
 
 .btn-projects:hover {
   background-color: #22b07d;
+}
+
+.box-skills {
+  width: 100px;
+  height: 100px;
+  border-radius: 0.75rem;
+  overflow: hidden;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
