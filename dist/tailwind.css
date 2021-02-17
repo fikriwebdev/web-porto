@@ -646,9 +646,25 @@ body {
     #22b07d;
 }
 
-.my-100px {
+.h-banner {
+  height: 150px;
+}
+
+.mt-100px {
   margin-top: 100px;
-  margin-bottom: 100px;
+}
+
+.border-light-green {
+  border: solid 2px #22b07d;
+  border-radius: 0.75rem;
+}
+
+.btn-projects {
+  border: solid 1px #22b07d;
+}
+
+.btn-projects:hover {
+  background-color: #22b07d;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
