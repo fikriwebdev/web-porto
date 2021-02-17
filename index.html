@@ -34,9 +34,9 @@
               <li class="hover:underline">
                 <a href="">Home</a>
               </li>
-              <li><a href="">My Works</a></li>
-              <li><a href="">Skills</a></li>
-              <li><a href="">About</a></li>
+              <li class="hover:underline"><a href="">My Works</a></li>
+              <li class="hover:underline"><a href="">Skills</a></li>
+              <li class="hover:underline"><a href="">About</a></li>
             </ul>
           </div>
         </div>
@@ -45,38 +45,190 @@
     <!-- END HEADER -->
 
     <!-- STAR HERO -->
-    <div
-      class="px-4 mx-auto container-md pt-36 hero md:px-0 md:flex md:flex-row-reverse md:justify-between md:items-center"
-    >
-      <div class="flex items-center justify-center w-auto">
-        <div class="w-9/12 md:w-full">
-          <img src="src/assets/img/hero-img.jpg" alt="" />
+    <section>
+      <div
+        class="px-4 mx-auto container-md pt-36 hero md:px-0 md:flex md:flex-row-reverse md:justify-between md:items-center"
+      >
+        <div class="flex items-center justify-center w-auto">
+          <div class="w-9/12 md:w-full">
+            <img src="src/assets/img/hero-img.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="my-4 md:w-4/5">
+          <h3 class="py-4 text-2xl font-semibold light-green">
+            Halo saya Fikri,
+          </h3>
+          <h1 class="pb-4 text-3xl font-semibold md:text-5xl">
+            UI/UX Designer <br />
+            & Junior Front-End Developer
+          </h1>
+          <p class="pb-8 text-base font-light text-gray-400 md:w-8/12">
+            Saya adalah freshgraduate S1 Ilmu Komputer. Sebagai lulusan S1 Ilmu
+            Komputer tentu saya mempunyai skill dasar programming. Saat ini saya
+            sedang mendalami front-end developer dan terus mempelajarinya setiap
+            hari. Saat ini saya sedang menunggu kesempatan untuk bekerjasama
+            dengan anda
+          </p>
+          <div class="flex items-center w-11/12 md:w-full">
+            <button
+              class="py-2 text-center text-white transition duration-300 rounded-full bg-light-green hover:bg-green-600 w-6/12 md:w-3/12 shadow-lg"
+            >
+              Let's Talk
+            </button>
+            <div class="flex md:mx-8 mx-2">
+              <a href="#">
+                <img
+                  src="src/assets/icon/whatsapp-icon.svg"
+                  alt=""
+                  class="px-4"
+                />
+              </a>
+              <a href="#" class="icon">
+                <img
+                  src="src/assets/icon/github-icon.svg"
+                  alt=""
+                  class="px-4"
+                />
+              </a>
+              <a href="#" class="icon">
+                <img
+                  src="src/assets/icon/linkedin-icon.svg"
+                  alt=""
+                  class="px-4"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="my-4 md:w-4/5">
-        <h3 class="py-4 text-2xl font-semibold light-green">
-          Halo saya Fikri,
-        </h3>
-        <h1 class="pb-4 text-3xl font-semibold md:text-5xl">
-          UI/UX Designer <br />
-          & Junior Front-End Developer
-        </h1>
-        <p class="pb-8 text-base font-light text-gray-400 md:w-8/12">
-          Saya adalah freshgraduate S1 Ilmu Komputer. Sebagai lulusan S1 Ilmu
-          Komputer tentu saya mempunyai skill dasar programming. Saat ini saya
-          sedang mendalami front-end developer dan terus mempelajarinya setiap
-          hari. Saat ini saya sedang menunggu kesempatan untuk bekerjasama
-          dengan anda
-        </p>
-        <button
-          class="w-5/12 py-2 text-center text-white transition duration-300 rounded-full bg-light-green hover:bg-green-500 md:w-3/12"
-        >
-          Let's Talk
-        </button>
-      </div>
-    </div>
+    </section>
     <!-- END HERO -->
+
+    <!-- START My Latest Works -->
+    <section class="container-md px-4 mx-auto md:px-0 my-100px">
+      <div class="text-center">
+        <div>
+          <h1 class="text-3xl font-semibold section-title">My Latest Works</h1>
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="w-12 h-1 light-green bg-green-400"></div>
+        </div>
+      </div>
+      <div class="mt-20">
+        <!-- Card 1 -->
+        <div
+          class="w-full h-cards shadow-lg rounded-lg overflow-hidden md:flex"
+        >
+          <div
+            class="bg-blue-800 w-full h-1/2 md:h-full md:w-1/2 overflow-hidden"
+          >
+            <img
+              src="src/assets/img/img-works-1.jpg"
+              alt=""
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div
+            class="w-full flex justify-center items-center h-1/2 md:w-1/2 md:h-full"
+          >
+            <div
+              class="flex flex-col justify-center items-center md:items-start md:w-3/4"
+            >
+              <h2
+                class="text-center text-xl font-semibold md:text-3xl md:text-left"
+              >
+                Slicing & Design Website Luxspace by Buildwithangga.com
+              </h2>
+              <p class="pt-1 pb-8 text-gray-300">
+                HTML, TailwindCSS V2, JQuery
+              </p>
+              <button
+                class="bg-green-gradient text-white text-sm rounded-full px-6 py-2 hover:bg-green-600"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 1 -->
+
+        <!-- Card 2-->
+        <div
+          class="w-full h-cards shadow-lg rounded-lg overflow-hidden md:flex md:flex-row-reverse my-20"
+        >
+          <div
+            class="bg-blue-800 w-full h-1/2 md:h-full md:w-1/2 overflow-hidden"
+          >
+            <img
+              src="src/assets/img/img-works-2.jpg"
+              alt=""
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div
+            class="w-full flex justify-center items-center h-1/2 md:w-1/2 md:h-full"
+          >
+            <div
+              class="flex flex-col justify-center items-center md:items-start md:w-3/4"
+            >
+              <h2
+                class="text-center text-xl font-semibold md:text-3xl md:text-left"
+              >
+                Slicing & Design Website Luxspace by Buildwithangga.com
+              </h2>
+              <p class="pt-1 pb-8 text-gray-300">
+                HTML, TailwindCSS V2, JQuery
+              </p>
+              <button
+                class="bg-green-gradient text-white text-sm rounded-full px-6 py-2 hover:bg-green-600"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+
+        <!-- Card 3 -->
+        <div
+          class="w-full h-cards shadow-lg rounded-lg overflow-hidden md:flex"
+        >
+          <div
+            class="bg-blue-800 w-full h-1/2 md:h-full md:w-1/2 overflow-hidden"
+          >
+            <img
+              src="src/assets/img/img-works-3.jpg"
+              alt=""
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div
+            class="w-full flex justify-center items-center h-1/2 md:w-1/2 md:h-full"
+          >
+            <div
+              class="flex flex-col justify-center items-center md:items-start md:w-3/4"
+            >
+              <h2
+                class="text-center text-xl font-semibold md:text-3xl md:text-left"
+              >
+                Slicing & Design Website Luxspace by Buildwithangga.com
+              </h2>
+              <p class="pt-1 pb-8 text-gray-300">
+                HTML, TailwindCSS V2, JQuery
+              </p>
+              <button
+                class="bg-green-gradient text-white text-sm rounded-full px-6 py-2 hover:bg-green-600"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+      </div>
+    </section>
+    <!-- END My Latest Works -->
 
     <script src="src/main.js"></script>
   </body>

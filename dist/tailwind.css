@@ -617,6 +617,40 @@ body {
   margin: 0 auto;
 }
 
+.icon:hover {
+  fill: #22b07d;
+  opacity: 1;
+}
+
+.cards {
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  width: 100%;
+  height: 472px;
+}
+
+.h-cards {
+  height: 472px;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(
+      89.7deg,
+      #88ec24 1.81%,
+      rgba(255, 255, 255, 0) 99.74%
+    ),
+    #22b07d;
+}
+
+.my-100px {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));

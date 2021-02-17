@@ -32,4 +32,32 @@ body {
   margin: 0 auto;
 }
 
+.icon:hover {
+  fill: #22b07d;
+  opacity: 1;
+}
+
+.cards {
+  @apply w-full flex items-center rounded-xl overflow-hidden shadow-xl;
+  height: 472px;
+}
+
+.h-cards {
+  height: 472px;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(
+      89.7deg,
+      #88ec24 1.81%,
+      rgba(255, 255, 255, 0) 99.74%
+    ),
+    #22b07d;
+}
+
+.my-100px {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 @tailwind utilities;
