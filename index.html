@@ -14,12 +14,12 @@
   </head>
   <body>
     <!-- START HEADER -->
-    <header class="fixed w-full bg-white">
+    <header class="fixed z-50 w-full bg-white">
       <div class="px-4 mx-auto border-b container-md md:px-0 md:border-none">
         <div class="py-8 md:flex">
           <div class="flex justify-between w-full">
             <div class="logo">
-              <h3 class="text-xl font-medium gray-green">
+              <h3 class="text-xl font-medium text-gray-300">
                 muh<span class="light-green">fikri</span>
               </h3>
             </div>
@@ -30,10 +30,8 @@
             </div>
           </div>
 
-          <div class="hidden text-center md:w-7/12 md:block hamburger-wrapper">
-            <ul
-              class="md:flex md:justify-between hamburger-menu md:overflow-visible"
-            >
+          <div class="text-center md:w-7/12 md:block hamburger-wrapper">
+            <ul class="hidden md:flex md:justify-between md:overflow-visible">
               <li class="hover:underline">
                 <a href="">Home</a>
               </li>
@@ -66,7 +64,7 @@
             UI/UX Designer <br />
             & Junior Front-End Developer
           </h1>
-          <p class="pb-8 text-sm font-light gray-green md:w-8/12">
+          <p class="pb-8 text-sm font-light text-gray-300 md:w-8/12">
             Saya adalah freshgraduate S1 Ilmu Komputer. Sebagai lulusan S1 Ilmu
             Komputer tentu saya mempunyai skill dasar programming. Saat ini saya
             sedang mendalami front-end developer dan terus mempelajarinya setiap
@@ -75,11 +73,11 @@
           </p>
           <div class="flex items-center w-11/12 md:w-full">
             <button
-              class="py-2 text-center text-white transition duration-300 rounded-full bg-light-green hover:bg-green-600 w-6/12 md:w-3/12 shadow-lg"
+              class="w-6/12 py-2 text-center text-white transition duration-300 rounded-full shadow-lg bg-light-green hover:bg-green-600 md:w-3/12"
             >
               Let's Talk
             </button>
-            <div class="flex md:mx-8 mx-2">
+            <div class="flex mx-2 md:mx-8">
               <a href="#">
                 <img
                   src="src/assets/icon/whatsapp-icon.svg"
@@ -110,10 +108,10 @@
 
     <!-- START My Latest Works -->
     <section
-      class="bg-gradient-to-b from-white via-white to-gray-200 mt-100px relative z-10"
+      class="relative z-10 bg-gradient-to-b from-white via-white to-gray-200 mt-100px"
       id="works"
     >
-      <div class="container-md mx-auto px-4 md:px-0 pt-20 pb-48">
+      <div class="px-4 pt-20 pb-48 mx-auto container-md md:px-0">
         <div class="text-center">
           <div>
             <h1 class="text-3xl font-semibold section-title">
@@ -121,37 +119,39 @@
             </h1>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-12 h-1 light-green bg-green-400"></div>
+            <div class="w-12 h-1 bg-green-400 light-green"></div>
           </div>
         </div>
         <div class="mt-20">
           <!-- Card 1 -->
           <div
-            class="w-full h-cards shadow-lg rounded-xl overflow-hidden md:flex bg-white"
+            class="w-full overflow-hidden bg-white shadow-lg h-cards rounded-xl md:flex"
           >
             <div
-              class="bg-blue-800 w-full h-1/2 md:h-full md:w-1/2 overflow-hidden"
+              class="w-full overflow-hidden bg-blue-800 h-1/2 md:h-full md:w-1/2"
             >
               <img
                 src="src/assets/img/img-works-1.jpg"
                 alt=""
-                class="w-full h-full object-cover object-center"
+                class="object-cover object-center w-full h-full"
               />
             </div>
             <div
-              class="w-full flex justify-center items-center h-1/2 md:w-1/2 md:h-full"
+              class="flex items-center justify-center w-full h-1/2 md:w-1/2 md:h-full"
             >
               <div
-                class="flex flex-col justify-center items-center md:items-start md:w-3/4"
+                class="flex flex-col items-center justify-center md:items-start md:w-3/4"
               >
                 <h2
-                  class="text-center text-xl font-semibold md:text-3xl md:text-left"
+                  class="text-xl font-semibold text-center md:text-3xl md:text-left"
                 >
                   Slicing & Design Web
                 </h2>
-                <p class="pt-1 pb-8 gray-green">HTML, TailwindCSS V2, JQuery</p>
+                <p class="pt-1 pb-8 text-gray-300">
+                  HTML, TailwindCSS V2, JQuery
+                </p>
                 <button
-                  class="bg-green-gradient text-white text-sm rounded-full px-6 py-2 hover:bg-green-600"
+                  class="px-6 py-2 text-sm text-white rounded-full bg-green-gradient hover:bg-green-600"
                 >
                   View Project
                 </button>
@@ -162,33 +162,33 @@
 
           <!-- Card 2-->
           <div
-            class="w-full h-cards shadow-lg rounded-xl overflow-hidden md:flex md:flex-row-reverse my-20 bg-white"
+            class="w-full my-20 overflow-hidden bg-white shadow-lg h-cards rounded-xl md:flex md:flex-row-reverse"
           >
             <div
-              class="bg-blue-800 w-full h-1/2 md:h-full md:w-1/2 overflow-hidden"
+              class="w-full overflow-hidden bg-blue-800 h-1/2 md:h-full md:w-1/2"
             >
               <img
                 src="src/assets/img/img-works-2.jpg"
                 alt=""
-                class="w-full h-full object-cover object-center"
+                class="object-cover object-center w-full h-full"
               />
             </div>
             <div
-              class="w-full flex justify-center items-center h-1/2 md:w-1/2 md:h-full"
+              class="flex items-center justify-center w-full h-1/2 md:w-1/2 md:h-full"
             >
               <div
-                class="flex flex-col justify-center items-center md:items-start md:w-3/4"
+                class="flex flex-col items-center justify-center md:items-start md:w-3/4"
               >
                 <h2
-                  class="text-center text-xl font-semibold md:text-3xl md:text-left"
+                  class="text-xl font-semibold text-center md:text-3xl md:text-left"
                 >
                   Slicing & Design Web
                 </h2>
-                <p class="pt-1 pb-8 text-gray-300 gray-green">
+                <p class="pt-1 pb-8 text-gray-300">
                   HTML, TailwindCSS V2, JQuery
                 </p>
                 <button
-                  class="bg-green-gradient text-white text-sm rounded-full px-6 py-2 hover:bg-green-600"
+                  class="px-6 py-2 text-sm text-white rounded-full bg-green-gradient hover:bg-green-600"
                 >
                   View Project
                 </button>
@@ -199,33 +199,33 @@
 
           <!-- Card 3 -->
           <div
-            class="w-full h-cards shadow-lg rounded-xl overflow-hidden md:flex bg-white"
+            class="w-full overflow-hidden bg-white shadow-lg h-cards rounded-xl md:flex"
           >
             <div
-              class="bg-blue-800 w-full h-1/2 md:h-full md:w-1/2 overflow-hidden"
+              class="w-full overflow-hidden bg-blue-800 h-1/2 md:h-full md:w-1/2"
             >
               <img
                 src="src/assets/img/img-works-3.jpg"
                 alt=""
-                class="w-full h-full object-cover object-center"
+                class="object-cover object-center w-full h-full"
               />
             </div>
             <div
-              class="w-full flex justify-center items-center h-1/2 md:w-1/2 md:h-full"
+              class="flex items-center justify-center w-full h-1/2 md:w-1/2 md:h-full"
             >
               <div
-                class="flex flex-col justify-center items-center md:items-start md:w-3/4"
+                class="flex flex-col items-center justify-center md:items-start md:w-3/4"
               >
                 <h2
-                  class="text-center text-xl font-semibold md:text-3xl md:text-left"
+                  class="text-xl font-semibold text-center md:text-3xl md:text-left"
                 >
                   Slicing & Design Web
                 </h2>
-                <p class="pt-1 pb-8 text-gray-300 gray-green">
+                <p class="pt-1 pb-8 text-gray-300">
                   HTML, TailwindCSS V2, JQuery
                 </p>
                 <button
-                  class="bg-green-gradient text-white text-sm rounded-full px-6 py-2 hover:bg-green-600"
+                  class="px-6 py-2 text-sm text-white rounded-full bg-green-gradient hover:bg-green-600"
                 >
                   View Project
                 </button>
@@ -240,29 +240,29 @@
 
     <!-- START Banner Interested Working -->
     <div
-      class="container-md px-4 md:px-0 relative z-20 transform -translate-y-20"
+      class="relative z-20 px-4 transform -translate-y-20 container-md md:px-0"
       id="skills"
     >
-      <div class="w-full h-banner shadow-lg rounded-xl bg-white">
+      <div class="w-full bg-white shadow-lg h-banner rounded-xl">
         <div
-          class="flex flex-col justify-center items-center h-full md:flex-row"
+          class="flex flex-col items-center justify-center h-full md:flex-row"
         >
           <div
             class="flex flex-col items-center justify-between md:w-full md:mx-8 md:flex-row md:h-full"
           >
-            <div class="md:h-full flex items-center">
+            <div class="flex items-center md:h-full">
               <h3 class="text-base font-medium md:text-xl">
                 need discussion about your project?
               </h3>
             </div>
             <div class="mt-4 md:mx-4 md:h-full md:mt-0 md:flex md:items-center">
               <button
-                class="border rounded-full px-2 py-2 hover:text-white btn-projects md:mx-4 mr-4 font-light text-sm"
+                class="px-2 py-2 mr-4 text-sm font-light border rounded-full hover:text-white btn-projects md:mx-4"
               >
                 See More Projects
               </button>
               <button
-                class="bg-light-green text-white rounded-full px-8 py-2 text-sm hover:bg-green-600"
+                class="px-8 py-2 text-sm text-white rounded-full bg-light-green hover:bg-green-600"
               >
                 Email me
               </button>
@@ -275,26 +275,26 @@
 
     <!-- START Section Why You Hear me? -->
     <section class="mt-100px">
-      <div class="container-md px-4 md:px-0">
+      <div class="px-4 container-md md:px-0">
         <div class="text-center">
           <div>
             <h1 class="text-3xl font-semibold section-title">Why Hire Me?</h1>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-12 h-1 light-green bg-green-400"></div>
+            <div class="w-12 h-1 bg-green-400 light-green"></div>
           </div>
         </div>
         <div
-          class="flex flex-col justify-center items-center md:flex-row md:items-baseline md:my-16"
+          class="flex flex-col items-center justify-center md:flex-row md:items-baseline md:my-16"
         >
           <!-- Items 1 -->
-          <div class="flex w-3/4 items-center justify-center flex-col md:w-1/4">
+          <div class="flex flex-col items-center justify-center w-3/4 md:w-1/4">
             <div
-              class="mt-20 md:mt-0 flex w-full md:w-3/4 border-light-green items-center justify-center py-8"
+              class="flex items-center justify-center w-full py-8 mt-20 md:mt-0 md:w-3/4 border-light-green"
             >
               <img src="src/assets/icon/img-hire-1.svg" alt="" />
             </div>
-            <div class="my-4 text-center w-3/4">
+            <div class="w-3/4 my-4 text-center">
               <h3 class="text-base font-semibold">Passionate</h3>
               <p class="text-sm font-light text-gray-300">
                 I have been working hard in this field for the past year through
@@ -306,14 +306,14 @@
 
           <!-- Items 2 -->
           <div
-            class="flex w-3/4 items-center justify-center flex-col py-2 md:w-1/4 md:py-0"
+            class="flex flex-col items-center justify-center w-3/4 py-2 md:w-1/4 md:py-0"
           >
             <div
-              class="flex w-full md:w-3/4 border-light-green items-center justify-center py-8"
+              class="flex items-center justify-center w-full py-8 md:w-3/4 border-light-green"
             >
               <img src="src/assets/icon/img-hire-2.svg" alt="" />
             </div>
-            <div class="my-4 text-center w-3/4">
+            <div class="w-3/4 my-4 text-center">
               <h3 class="text-base font-semibold">Collaborative</h3>
               <p class="text-sm font-light text-gray-300">
                 I can work with a team and collaborate with a developer or ui /
@@ -325,14 +325,14 @@
 
           <!-- Items 3 -->
           <div
-            class="flex w-3/4 items-center justify-center flex-col py-2 md:w-1/4 md:py-0"
+            class="flex flex-col items-center justify-center w-3/4 py-2 md:w-1/4 md:py-0"
           >
             <div
-              class="flex w-full md:w-3/4 border-light-green items-center justify-center py-8"
+              class="flex items-center justify-center w-full py-8 md:w-3/4 border-light-green"
             >
               <img src="src/assets/icon/img-hire-3.svg" alt="" />
             </div>
-            <div class="my-4 text-center w-3/4">
+            <div class="w-3/4 my-4 text-center">
               <h3 class="text-base font-semibold">Explorative</h3>
               <p class="text-sm font-light text-gray-300">
                 I like to explore design and coding, it can be proven by my work
@@ -343,14 +343,14 @@
 
           <!-- Items 4 -->
           <div
-            class="flex w-3/4 items-center justify-center flex-col py-2 md:w-1/4 md:py-0"
+            class="flex flex-col items-center justify-center w-3/4 py-2 md:w-1/4 md:py-0"
           >
             <div
-              class="flex w-full md:w-3/4 border-light-green items-center justify-center py-8"
+              class="flex items-center justify-center w-full py-8 md:w-3/4 border-light-green"
             >
               <img src="src/assets/icon/img-hire-4.svg" alt="" />
             </div>
-            <div class="my-4 text-center w-3/4">
+            <div class="w-3/4 my-4 text-center">
               <h3 class="text-base font-semibold">Fast & Detail</h3>
               <p class="text-sm font-light text-gray-300">
                 Finish the job fast and detail is my priority
@@ -365,26 +365,26 @@
 
     <!-- START Section Tools & Skills -->
     <section class="mt-100px">
-      <div class="container-md px-4 md:px-0">
+      <div class="px-4 container-md md:px-0">
         <div class="text-center">
           <div>
             <h1 class="text-3xl font-semibold section-title">Tools & Skills</h1>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-12 h-1 light-green bg-green-400"></div>
+            <div class="w-12 h-1 bg-green-400 light-green"></div>
           </div>
         </div>
         <div class="mt-16">
           <div
-            class="flex flex-wrap justify-center items-center md:justify-between"
+            class="flex flex-wrap items-center justify-center md:justify-between"
           >
             <!-- Items 1 -->
             <div class="w-24">
-              <div class="w-20 h-20 rounded-xl overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-xl">
                 <img
                   src="src/assets/img/img-tools-1.jpg"
                   alt=""
-                  class="w-full h-full object-cover object-center"
+                  class="object-cover object-center w-full h-full"
                 />
               </div>
             </div>
@@ -392,11 +392,11 @@
 
             <!-- Items 2 -->
             <div class="w-24">
-              <div class="w-20 h-20 rounded-xl overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-xl">
                 <img
                   src="src/assets/img/img-tools-2.jpg"
                   alt=""
-                  class="w-full h-full object-cover object-center"
+                  class="object-cover object-center w-full h-full"
                 />
               </div>
             </div>
@@ -404,11 +404,11 @@
 
             <!-- Items 3 -->
             <div class="w-24">
-              <div class="w-20 h-20 rounded-xl overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-xl">
                 <img
                   src="src/assets/img/img-tools-3.jpg"
                   alt=""
-                  class="w-full h-full object-cover object-center"
+                  class="object-cover object-center w-full h-full"
                 />
               </div>
             </div>
@@ -416,11 +416,11 @@
 
             <!-- Items 4 -->
             <div class="w-24 my-4 md:my-0">
-              <div class="w-20 h-20 rounded-xl overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-xl">
                 <img
                   src="src/assets/img/img-tools-4.jpg"
                   alt=""
-                  class="w-full h-full object-cover object-center"
+                  class="object-cover object-center w-full h-full"
                 />
               </div>
             </div>
@@ -428,11 +428,11 @@
 
             <!-- Items 5 -->
             <div class="w-24 my-4 md:my-0">
-              <div class="w-20 h-20 rounded-xl overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-xl">
                 <img
                   src="src/assets/img/img-tools-5.jpg"
                   alt=""
-                  class="w-full h-full object-cover object-center"
+                  class="object-cover object-center w-full h-full"
                 />
               </div>
             </div>
@@ -440,11 +440,11 @@
 
             <!-- Items 6 -->
             <div class="w-24 my-4 md:my-0">
-              <div class="w-20 h-20 rounded-xl overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-xl">
                 <img
                   src="src/assets/img/img-tools-6.jpg"
                   alt=""
-                  class="w-full h-full object-cover object-center"
+                  class="object-cover object-center w-full h-full"
                 />
               </div>
             </div>
@@ -460,17 +460,17 @@
       class="bg-gradient-to-b from-white to-gray-200 mt-100px"
       id="contact"
     >
-      <div class="container-md px-4 md:px-0 h-footer">
-        <div class="text-center w-full h-full">
-          <div class="w-full h-full flex items-center justify-center flex-col">
-            <h2 class="text-3xl font-semibold pb-2">Let's get in touch</h2>
+      <div class="px-4 container-md md:px-0 h-footer">
+        <div class="w-full h-full text-center">
+          <div class="flex flex-col items-center justify-center w-full h-full">
+            <h2 class="pb-2 text-3xl font-semibold">Let's get in touch</h2>
             <span class="text-gray-300"
               >for business inquiry, please email me to
-              <a href="" class="underline text-gray-400 hover:text-black"
+              <a href="" class="text-gray-400 underline hover:text-black"
                 >fikri5741@gmail.com</a
               >
             </span>
-            <div class="text-gray-300 py-4">
+            <div class="py-4 text-gray-300">
               <h3>Made with ❤️‍ in Bogor</h3>
               <p>by Muhamad Fikri</p>
             </div>
