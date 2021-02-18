@@ -6,19 +6,16 @@ hamburger.addEventListener("click", function () {
   hamburgerMenu.classList.toggle("transition-max-h");
 });
 
-// Smooth Scrolling
-// const scrollOffset = document.querySelectorAll(".hamburger-wrapper li a");
-// scrollOffset.forEach((items) => {
-//   items.addEventListener("click", function () {
-//     items.offsetHeight
-//   });
-// });
-
-(function () {
-  scrollTo();
-})();
-
-function scrollTo() {
-  const links = document.querySelectorAll(".hamburger-wrapper li a");
-  links.forEach((each) => (each.onclick = scrollAnchors));
+function setTheme(theme) {
+  const doc = document.querySelector("html");
+  doc.classList.toggle(`${theme}`);
 }
+
+const btnDarkMode = document.querySelector(".btn-dark-mode");
+btnDarkMode.addEventListener("click", function () {
+  const doc = document.querySelector("html");
+  doc.classList.toggle("dark");
+
+  const light = document.querySelector(".light");
+  light.classList.toggle("hidden");
+});
