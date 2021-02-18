@@ -1,7 +1,12 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: ["*.html"],
+    content: ["index.html"],
+    css: ["src/tailwind.css"],
+
+    options: {
+      safelist: ["hidden", "dark"],
+    },
   },
   darkMode: "class", // or 'media' or 'class'
   theme: {

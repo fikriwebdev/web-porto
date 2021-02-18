@@ -572,6 +572,10 @@ body {
   height: 472px;
 }
 
+.hidden {
+  display: none;
+}
+
 .bg-green-gradient {
   background: linear-gradient(
       89.7deg,
@@ -617,10 +621,10 @@ body {
   @apply dark:fill-white fill-black;
 } */
 
-svg:hover {
+/* svg:hover {
   fill: white;
   fill-opacity: 50%;
-}
+} */
 
 .bg-white {
   --tw-bg-opacity: 1;
@@ -723,6 +727,10 @@ svg:hover {
 
 .table {
   display: table;
+}
+
+.hidden {
+  display: none;
 }
 
 .flex-col {

@@ -50,6 +50,10 @@ body {
   height: 472px;
 }
 
+.hidden {
+  display: none;
+}
+
 .bg-green-gradient {
   background: linear-gradient(
       89.7deg,
@@ -93,9 +97,9 @@ body {
   @apply dark:fill-white fill-black;
 } */
 
-svg:hover {
+/* svg:hover {
   fill: white;
   fill-opacity: 50%;
-}
+} */
 
 @tailwind utilities;

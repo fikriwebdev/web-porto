@@ -16,6 +16,6 @@ btnDarkMode.addEventListener("click", function () {
   const doc = document.querySelector("html");
   doc.classList.toggle("dark");
 
-  const light = document.querySelector(".light");
+  const light = document.querySelector(".light-button");
   light.classList.toggle("hidden");
 });
