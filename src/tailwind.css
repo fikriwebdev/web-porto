@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -14,14 +16,15 @@ body {
   color: #a3b18a;
 }
 
-.hamburger-menu {
+.hamburger-wrapper {
   max-height: 0;
+  transition: max-height 0.5s ease-in-out;
   overflow: hidden;
 }
 
-.hamburger-menu.transition-max-h {
-  max-height: 7rem;
-  transition: max-height 1s ease-in-out;
+.hamburger-wrapper.transition-max-h {
+  max-height: 10rem;
+  transition: max-height 0.5s ease-in-out;
 }
 
 .bg-light-green {
@@ -39,7 +42,7 @@ body {
 }
 
 .cards {
-  @apply w-full flex items-center rounded-xl overflow-hidden shadow-xl;
+  @apply flex items-center w-full overflow-hidden shadow-xl rounded-xl;
   height: 472px;
 }
 
@@ -83,7 +86,7 @@ body {
 .box-skills {
   width: 100px;
   height: 100px;
-  @apply rounded-xl overflow-hidden;
+  @apply overflow-hidden rounded-xl;
 }
 
 @tailwind utilities;

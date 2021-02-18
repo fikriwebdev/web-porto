@@ -2,11 +2,23 @@
 
 const hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function () {
-  // const hamburgerWrapper = document.querySelector(".hamburger-wrapper");
-  // hamburgerWrapper.classList.toggle("hidden");
-
-  const hamburgerMenu = document.querySelector(".hamburger-wrapper ul");
-  hamburgerMenu.classList.toggle("hidden");
+  const hamburgerMenu = document.querySelector(".hamburger-wrapper");
   hamburgerMenu.classList.toggle("transition-max-h");
-  hamburgerMenu.classList.remove("hamburgen-menu");
 });
+
+// Smooth Scrolling
+// const scrollOffset = document.querySelectorAll(".hamburger-wrapper li a");
+// scrollOffset.forEach((items) => {
+//   items.addEventListener("click", function () {
+//     items.offsetHeight
+//   });
+// });
+
+(function () {
+  scrollTo();
+})();
+
+function scrollTo() {
+  const links = document.querySelectorAll(".hamburger-wrapper li a");
+  links.forEach((each) => (each.onclick = scrollAnchors));
+}

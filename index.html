@@ -24,20 +24,26 @@
               </h3>
             </div>
             <div>
-              <button class="hamburger md:hidden">
+              <button class="hamburger md:hidden focus:outline-none">
                 <img src="src/assets/icon/hamburger-button.svg" alt="" />
               </button>
             </div>
           </div>
 
-          <div class="text-center md:w-7/12 md:block hamburger-wrapper">
-            <ul class="hidden md:flex md:justify-between md:overflow-visible">
+          <div class="text-center md:w-7/12 md:block hamburger-button">
+            <ul
+              class="md:flex md:justify-between md:overflow-visible hamburger-wrapper"
+            >
               <li class="hover:underline">
-                <a href="">Home</a>
+                <a href="#">Home</a>
               </li>
-              <li class="hover:underline"><a href="#works">My Works</a></li>
-              <li class="hover:underline"><a href="#skills">Skills</a></li>
-              <li class="hover:underline"><a href="#contact">Contact</a></li>
+              <li class="hover:underline">
+                <a href="#works" class="anchor">My Works</a>
+              </li>
+              <li class="hover:underline"><a href="#hire">Hire</a></li>
+              <li class="hover:underline">
+                <a href="#skills">Tools & Skills</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -241,7 +247,6 @@
     <!-- START Banner Interested Working -->
     <div
       class="relative z-20 px-4 transform -translate-y-20 container-md md:px-0"
-      id="skills"
     >
       <div class="w-full bg-white shadow-lg h-banner rounded-xl">
         <div
@@ -274,7 +279,7 @@
     <!-- END Banner Interested Working -->
 
     <!-- START Section Why You Hear me? -->
-    <section class="mt-100px">
+    <section class="mt-100px" id="hire">
       <div class="px-4 container-md md:px-0">
         <div class="text-center">
           <div>
@@ -364,7 +369,7 @@
     <!-- END Section Why You Hear me? -->
 
     <!-- START Section Tools & Skills -->
-    <section class="mt-100px">
+    <section class="mt-100px" id="skills">
       <div class="px-4 container-md md:px-0">
         <div class="text-center">
           <div>
