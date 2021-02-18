@@ -89,4 +89,13 @@ body {
   @apply overflow-hidden rounded-xl;
 }
 
+/* svg {
+  @apply dark:fill-white fill-black;
+} */
+
+svg:hover {
+  fill: white;
+  fill-opacity: 50%;
+}
+
 @tailwind utilities;
