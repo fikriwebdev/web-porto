@@ -2,4 +2,4 @@
 
 Web portofolio ini dibuat dengan menggunakan HTML, TailwindCSS dan Vanilla javascript
 
-Web Demo: mpictri.netlify.app
+Web Demo: https://mpictri.netlify.app
